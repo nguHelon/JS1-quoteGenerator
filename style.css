@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6f03fc;
+}
+
+.container {
+  width: 600px;
+  height: auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.container .quote-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+  color: black;
+  font-family: Montserrat;
+  font-weight: bolder;
+}
+
+.quote-container .quote-content {
+  width: 100%;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-content p {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-family: Comfortaa;
+  line-height: 2rem;
+  margin-bottom: 20px;
+}
+
+.quote-content .author {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.quote-content .author .author-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 150px;
+  height: auto;
+}
+
+.author .author-name .fa {
+  font-size: 15px;
+  background-color: black;
+}
+
+.author .author-name button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  font-style: italic;
+  font-size: 22px;
+  color: #262626;
+}
+
+.container .nextquote {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.nextquote .developer {
+  width: 100%;
+  text-align: center;
+}
+
+.nextquote .developer p {
+  text-transform: capitalize;
+}
+
+.nextquote .developer hr {
+  height: 1px;
+  width: 100%;
+  background-color: gray;
+}
+
+.nextquote .actions {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.actions .more {
+  display: flex;
+  align-items: center;
+}
+
+.actions .icons i {
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #6f03fc;
+  border: 2px solid #6f03fc;
+  margin: 5px;
+}
+
+.actions .more img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.actions button {
+  padding: 13px 15px;
+  background-color: #6f03fc;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 60px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
