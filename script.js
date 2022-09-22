@@ -2,6 +2,7 @@ const btn = document.querySelector(".button");
 const quote = document.querySelector(".quote");
 const person = document.querySelector(".name");
 const image = document.querySelector(".image");
+const copy = document.querySelector(".fa-copy");
 
 const quotes = [
     {
@@ -56,3 +57,11 @@ btn.addEventListener("click", () => {
     image.setAttribute('src', `authors/${quotes[random].image}`);
     image.setAttribute('alt', quotes[random].person);
 });
+
+copy.addEventListener("click", () => {
+    // quote.select();
+    // quote.setSelectionRange(0, 99999);
+
+    let copiedText = navigator.clipboard.writeText(quote.innerText);
+    console.log(copiedText);
+})

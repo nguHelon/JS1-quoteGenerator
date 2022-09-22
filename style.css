@@ -135,6 +135,7 @@ body {
   color: #6f03fc;
   border: 2px solid #6f03fc;
   margin: 5px;
+  cursor: pointer;
 }
 
 .actions .more img {
